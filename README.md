@@ -5,8 +5,8 @@ SSAFY 알고리즘 스터디 백마 🏆
 ## 📌 스터디 멤버
 - 서울 18반 김철현 (GitHub: [cjfgus983](https://github.com/cjfgus983))
 - 서울 18반 김은재
-- 서울 18반 최유리
-- 서울 18반 김성진
+- 서울 18반 최유리 (GitHub: [cjfgus983](https://github.com/yurichoi0510))
+- 서울 18반 김성진 (GitHub: [cjfgus983](https://github.com/k000927))
 - 서울 18반 이희경
 
 ---
