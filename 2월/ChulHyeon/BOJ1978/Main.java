@@ -15,9 +15,11 @@ public class Main {
         {
             prime[i] = true;
         }
+
+
         for(int i=2;i<=Math.sqrt(1000);i++)
         {
-            for(int j=i+i;j<=1000;j = j + i)
+            for(int j = i + i;j<=1000;j = j + i)
             {
                 prime[j] = false;
             }
