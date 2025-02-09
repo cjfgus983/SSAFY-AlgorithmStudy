@@ -1,9 +1,10 @@
+package BOJ10430;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class 10430_나머지_25.02.04 {
+public class Main{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -12,12 +13,10 @@ public class 10430_나머지_25.02.04 {
         int B = Integer.parseInt(st.nextToken());
         int C = Integer.parseInt(st.nextToken());
 
-        StringBuilder ans = new StringBuilder();
-
-        ans.append((A + B) % C).append("\n");
-        ans.append(((A % C) + (B % C)) % C).append("\n");
-        ans.append((A * B) % C).append("\n");
-        ans.append(((A % C) * (B % C)) % C).append("\n");
+        String ans = (A + B) % C + "\n" +
+                ((A % C) + (B % C)) % C + "\n" +
+                (A * B) % C + "\n" +
+                ((A % C) * (B % C)) % C + "\n";
 
         System.out.print(ans);
     }

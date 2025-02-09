@@ -1,3 +1,5 @@
+package BOJ4375;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,11 +14,9 @@ import java.io.InputStreamReader;
  * f(x) % n = ( f(x-1) % n + 1 ) % n
  */
 
-public class 4375_1_25.02.05 {
+public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder ans = new StringBuilder();
-
         // 문자열 입력
         String input;
 
