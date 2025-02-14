@@ -6,7 +6,6 @@
 8. [[9095번 - 1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)]
 
 ### 브루트 포스 - N과 M
-4. [[15652번 - N과 M (4)](https://www.acmicpc.net/problem/15652)]
 5. [[15654번 - N과 M (5)](https://www.acmicpc.net/problem/15654)]
 6. [[15655번 - N과 M (6)](https://www.acmicpc.net/problem/15655)]
 7. [[15656번 - N과 M (7)](https://www.acmicpc.net/problem/15656)]
