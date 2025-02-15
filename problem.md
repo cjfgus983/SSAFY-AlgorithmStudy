@@ -4,6 +4,3 @@
 6. [[6064번 - 카잉 달력](https://www.acmicpc.net/problem/6064)]
 7. [[1748번 - 수 이어 쓰기 1](https://www.acmicpc.net/problem/1748)]
 8. [[9095번 - 1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)]
-
-### 브루트 포스 - N과 M
-9. [[18290번 - NM과 K (1)](https://www.acmicpc.net/problem/18290)]
