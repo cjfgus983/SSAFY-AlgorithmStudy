@@ -1,4 +1,3 @@
-1. [[9095번 - 1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)]
 2. [[1759번 - 암호 만들기](https://www.acmicpc.net/problem/1759)]
 3. [[14501번 - 퇴사](https://www.acmicpc.net/problem/14501)]
 4. [[14889번 - 스타트와 링크](https://www.acmicpc.net/problem/14889)]
