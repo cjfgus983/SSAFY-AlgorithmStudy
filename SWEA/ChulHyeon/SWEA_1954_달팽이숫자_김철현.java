@@ -17,7 +17,7 @@ import java.util.StringTokenizer;
  * 이 두 경우 방향을 바꿔줌과 동시에 현재 위치 (nowR, nowC) 도 갱신 해줘야 한다.
  * */
 
-public class Solution {
+public class SWEA_1954_달팽이숫자_김철현 {
 	
 	static int dirR[] = {0,1,0,-1};
 	static int dirC[] = {1,0,-1,0};

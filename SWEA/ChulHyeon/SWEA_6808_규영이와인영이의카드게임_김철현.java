@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
  * */
 
 
-public class Solution {
+public class SWEA_6808_규영이와인영이의카드게임_김철현 {
 	
 	static final int CARD_CNT = 9;
 	
