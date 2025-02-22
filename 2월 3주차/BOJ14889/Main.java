@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
  * 풀이
  * N은 20이라, 2^20 정도만 선택하면 괜찮다. (대략백만?)
  * N/2 조합으로 A팀뽑고,나머지들 B팀으로 만든다.
- * 차이로 최솟값 갱신해보자
+ * 차이로 최솟값 갱신해보자 데헷ㅇㅇㅇㅇ
  */
 public class Main {
 	static int board[][];
@@ -38,7 +38,6 @@ public class Main {
 	}
 	
 	static void dfs(int elementIndex, int indexA,int indexB) {
-//		System.out.printf("team A : %d, B: %d\n",indexA,indexB);
 		if (indexA == N/2) {
 			for(int i = elementIndex;i<N;i++) {
 				teamB[indexB] = i;
