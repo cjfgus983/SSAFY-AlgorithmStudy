@@ -1,10 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
-/*
- * 
- */
 public class Main {
 	static int n;
 	static char[][] S;
@@ -22,15 +18,15 @@ public class Main {
 		for (int x = -10; x <= 10; x++) {
 			ans[index] = x;
 
-			for (int i = 0; i <= x; i++) {
-				for (int j = x; j <= n; j++) {
+			for (int i = 0; i <= index; i++) {
+				for (int j = index; j < n; j++) {
 					sum[i][j] += x;
 				}
 			}
 
 			boolean flag = true;
-			for (int i = 0; i <= x; i++) {
-				for (int j = x; j <= n; j++) {
+			for (int i = 0; i <= index; i++) {
+				for (int j = i; j <= index; j++) {
 					if (S[i][j] == '-' && sum[i][j] >= 0 || S[i][j] == '0' && sum[i][j] != 0
 							|| S[i][j] == '+' && sum[i][j] <= 0)
 						flag = false;
@@ -40,8 +36,8 @@ public class Main {
 			if (flag)
 				recur(index + 1);
 
-			for (int i = 0; i <= x; i++) {
-				for (int j = x; j <= n; j++) {
+			for (int i = 0; i <= index; i++) {
+				for (int j = index; j < n; j++) {
 					sum[i][j] -= x;
 				}
 			}
