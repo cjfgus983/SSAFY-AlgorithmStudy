@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 import java.io.InputStreamReader;
 
-public class Main {
+public class BOJ_14889_스타트와링크 {
   static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
   static StringBuilder sb = new StringBuilder();
   static StringTokenizer st;
