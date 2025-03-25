@@ -31,12 +31,12 @@ public class Main {
         dp = new int[n + 2];
 
         for (int i = 1; i <= n; i++) {
-            // 상담을 하는 경우, 퇴사 전에 끝나는지 확인 후 갱신
+            // 선택 하는 경우
             if (i + t[i] <= n + 1) {
                 dp[i + t[i]] = Math.max(dp[i + t[i]], dp[i] + p[i]);
             } // i == 1이고 t[1] == 3 이니까 4일차(초반)의 최대값 갱신
 
-            // i 날에 상담 안했을 때 다음 날로 넘기기
+            // 선택 안하는 경우
             dp[i + 1] = Math.max(dp[i + 1], dp[i]);
         }
 
