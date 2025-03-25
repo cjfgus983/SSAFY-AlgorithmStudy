@@ -16,13 +16,24 @@ public class Main {
         st = new StringTokenizer(br.readLine().trim());
         for(int i=0;i < n;i++){
             arr[i] = Integer.parseInt(st.nextToken());
+            dp[i] = 1;
         }
 
-        dp[0] = 1;
         // 인덱스 2번부터 이전 인덱스를 뒤지며 현재 자기 위치보다 작은걸 찾아서 dp 갱신
-        for(int i=1;i >=0 ; i--)
-        {
 
+        int result = 0;
+
+        for(int i=0;i < n ; i++)
+        {
+            for(int j=i-1;j>=0;j--)
+            {
+                if(arr[j] < arr[i]){
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
+                }
+            }
+            // 최대값 갱신
+            result = Math.max(result, dp[i]);
         }
+        System.out.println(result);
     }
 }
